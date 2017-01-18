@@ -460,7 +460,7 @@ The LOKA board have an Docking station that allows to connect to a set of difere
 | P6                    | D1=IO5    D2=IO6                                  | Suports Serial Port / GPIO                  |  Serial/Digital    |
 | P7                    | D1=IO6    D2=IO7                                  | Suports Serial Port Transmission / GPIO     |  Serial/Digital    |
 | P8                    | D1=IO7    D2=none                                 | GPIO                                        |  Digital           |
-| P9                    | D1=IO3    D2=IO4  (With I2C HW Pullup)            | Suports I2C                                 |  I2C               |
+| P9                    | D1=IO3    D2=IO4  (With I2C HW Pulldown)          | Suports I2C                                 |  I2C               |
 
 
 	

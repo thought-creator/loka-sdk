@@ -23,8 +23,8 @@ void setup() {
 	//Disable board watchdog
 	Loka::disableWatchdog();
 
-	//Set GPIO pin mode as INPUT_PULLUP
-	Loka::pinMode(IO2, INPUT_PULLUP);
+	//Set GPIO pin mode as INPUT_PULLDOWN
+	Loka::pinMode(IO2, INPUT_PULLDOWN);
 
 	//Matched the callback function with the GPIO interruption pin
 	intConnect(IO2, callback);

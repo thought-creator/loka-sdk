@@ -23,7 +23,7 @@ enum {
 enum {
 	INPUT,
 	OUTPUT,
-	INPUT_PULLUP
+	INPUT_PULLDOWN
 };
 
 enum {
