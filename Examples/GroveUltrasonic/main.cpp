@@ -40,7 +40,7 @@ int readRange(digio pin, double * range){
 ;
 
 
-	Board::pinMode(pin,INPUT_PULLUP);
+	Board::pinMode(pin,INPUT_PULLDOWN);
 
 	start=millis();
 	while(Board::digitalRead(pin)==0){ // wait for the pulse
